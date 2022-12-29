@@ -190,7 +190,7 @@ letter-spacing: var(--typical-letter-spacing);}
 .services-button:hover, 
 .services-button:focus,
 .services-button:active { color: var(--main-white-color);
-    background-color: var(--hover-bgc)}
+background-color: var(--hover-bgc);}
 
 
 
