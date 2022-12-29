@@ -1,9 +1,7 @@
-body {
-    background-color: var(--main-white-color);
+body {background-color: var(--main-white-color);
     color: var(--main-text-color);
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
+    font-weight: 400;}
 
 :root {--main-text-color: #434455;
     --second-text-color: #2E2F42;
@@ -13,8 +11,7 @@ body {
     --corn-color: #E7E9FC;
     --hover-bgc: #404BBF;
     --typical-line-height: 1.5;
-    --typical-letter-spacing: 0.02em;
-}
+    --typical-letter-spacing: 0.02em;}
 
 .list {list-style: none;}
 
