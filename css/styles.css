@@ -15,6 +15,22 @@ body {
     --typical-line-height: 1.5;
 }
 
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+.hidden-title {position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+
 /* .header { }
 .header-navigation {}
 .header-site-list {} */
@@ -62,10 +78,6 @@ color: var(--main-text-color);}
 /* .header-nav-list {}
 .header-mail {}
 .header-tel {} */
-
-.list {list-style: none;}
-
-.link {text-decoration: none;}
 
 /* Назва сайту */
 
