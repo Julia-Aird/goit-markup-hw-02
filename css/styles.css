@@ -7,86 +7,68 @@ body {
 
 /* Лого */
 
-.header-logo {
-color: #2E2F42;
+.header-logo {color: #2E2F42;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 letter-spacing: 0.03em;
-text-transform: uppercase;
-}
+text-transform: uppercase;}
 
-
-
-.header-adress-link {
+.header-adress-link {font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
-}
+color: #434455;}
 
-.web-logo {
-    color: #4D5AE5;
-}
+.web-logo {color: #4D5AE5;}
 
-.header-link {
-font-weight: 500;
+.header-link {font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
-}
+color: #2E2F42;}
 
-.header { 
-}
-.header-navigation {
-}
-
-.header-site-list {
-}
+/* .header { }
+.header-navigation {}
+.header-site-list {} */
 
 .header-link:hover,
-.header-link:focus { color: #4D5AE5;
-}
-
-
+.header-link:focus { color: #4D5AE5;}
 
 .header-logo:hover,
 .header-logo:focus,
 .header-logo:active {color: #4D5AE5}
 
 .header-adress-link:hover,
-.header-adress-link:focus {color: #4D5AE5
+.header-adress-link:focus {color: #4D5AE5}
 
-}
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active{color: #F4F4FD;}
 
+.services-button:hover, 
+.services-button:focus,
+.services-button:active { color: #404BBF;}
 
-.list { 
-    list-style: none;
-}
+.services-button.all:hover, 
+.services-button.all:focus,
+.services-button.all:active { color: #F4F4FD;}
 
+.list { list-style: none;}
 
-.link {
-    text-decoration: none;
-}
+.link {text-decoration: none;}
 
-.header-nav-list {
-}
-.header-mail {
-}
-.header-tel {
-}
-.hero {    background-color: #2E2F42;
+/* .header-nav-list {}
+.header-mail {}
+.header-tel {} */
 
-}
+.hero {background-color: #2E2F42;}
 
-.hero-title {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
+.hero-title {font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;}
 
 .hero-button {font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -94,85 +76,81 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #4D5AE5;
-}
-.features {
-}
-.features-list {
-}
-.features-item {
-}
-.features-title {
-    font-weight: 500;
+    background-color: #4D5AE5;}
+
+    /* .features {}
+.features-list {}
+.features-item {} */
+
+.features-title {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+    color: #2E2F42;}
 
-.features-paragraph {
-    font-size: 16px;
+.features-paragraph {font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+    letter-spacing: 0.02em;}
 
+/* .work {} */
 
-.work {
-}
-.work-title, .team-title {
-font-size: 36px;
+.work-title, .team-title {font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-color: #2E2F42;
-}
-.work-list {
+color: #2E2F42;}
+
+/* .work-list {
 }
 .work-item {
-}
-.team {background: #F4F4FD;
-}
-.team-name {
-    font-weight: 500;
+} */
+
+.team {background: #F4F4FD;}
+
+.team-name, .examples-title {font-weight: 500;
     font-size: 20px;
     line-height: 1.2px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+    color: #2E2F42;}
 
-.team-paragraph {
-font-size: 16px;
+.team-subtitle, .subtitle {font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
+letter-spacing: 0.02em;}
 
-}
+/* .team-list {} */
 
+.team-item {background-color: #fff;}
 
-.team-list {
-}
+.footer {background: #2E2F42;}
 
-.team-item {
-    background-color: #fff;
-
-}
-.footer {background: #2E2F42;
-}
-.footer-logo {
-    color: #F4F4FD;
+.footer-logo {color: #F4F4FD;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    }
+    text-transform: uppercase;}
 
-    .footer-logo:hover,
+.footer-logo:hover,
 .footer-logo:focus,
 .footer-logo:active {color: #4D5AE5}
 
-.footer-text {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 1.5;
-    color: #E7E9FC;
-}
+.footer-text {font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;}
+
+.services-button.all {font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #404BBF;
+color: #FFFFFF;}
+
+.services-button {font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color: #F4F4FD;}
