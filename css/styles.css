@@ -84,7 +84,8 @@ color: #FFFFFF;}
     line-height: var(--typical-line-height);
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: var(--main-button-color);}
+    background-color: var(--main-button-color);
+    cursor: pointer;}
 
 .hero-button:hover,
 .hero-button:focus,
@@ -167,7 +168,8 @@ letter-spacing: 0.02em;}
     line-height: var(--typical-line-height);
     letter-spacing: 0.04em;
     background-color: #404BBF;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    cursor: pointer;}
     
     .services-button {font-family: inherit;
     font-weight: 500;
@@ -175,7 +177,8 @@ letter-spacing: 0.02em;}
     line-height: var(--typical-line-height);
     letter-spacing: 0.04em;
     color: var(--main-button-color);
-    background-color: #F4F4FD;}
+    background-color: #F4F4FD;
+    cursor: pointer;}
 
 .services-button:hover, 
 .services-button:focus,
