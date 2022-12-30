@@ -144,9 +144,20 @@ color: var(--main-white-color)}
     letter-spacing: var(--typical-letter-spacing);
     color:var(--second-text-color);}
 
-.team-subtitle, .subtitle {font-size: 16px;
+.team-subtitle, .examples-subtitle {font-size: 16px;
+color: var(--main-text-color);
 line-height: var(--typical-line-height);
 letter-spacing: var(--typical-letter-spacing);}
+
+.examples-title:hover,
+.examples-title:focus,
+.examples-title:active {
+color: var(--accent-color);
+}
+
+.examples-subtitle:hover,
+.examples-subtitle:focus,
+.examples-subtitle:active { color: var(--accent-color)}
 
 /* .team-list {} */
 
